@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+# 🌊 Hey, I'm Khiara!  
 
-## Project info
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hey,%20I'm%20Khiara!&fontSize=70&fontAlign=50" alt="Header" />
 
-**URL**: https://lovable.dev/projects/7f9a8c63-08c4-4331-999c-50c5df488f24
+<h3>Fullstack Developer in Progress | Code Enthusiast | F1 Fan 🏁</h3>
 
-## How can I edit this code?
+<p>
+<a href="https://www.linkedin.com/in/razzolinik/" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:khiararazzolini@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+</p>
+</div>
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🌸 About Me  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7f9a8c63-08c4-4331-999c-50c5df488f24) and start prompting.
+Hi, I'm Khiara (but you can call me **Kiki**)!
 
-Changes made via Lovable will be committed automatically to this repo.
+I'm a Computer Science student from Argentina, currently exploring the endless world of web development. For me, coding isn't just about syntax—it's about **Frontend magic + Backend logic**, turning ideas into reality, breaking things and fixing them again 😅.
 
-**Use your preferred IDE**
+- 🔭 **Currently working on:** Building fullstack projects to level up my skills.  
+- 🌱 **Learning:** Next.js and advanced Java.  
+- 🏎️ **Fun fact:** When I’m not coding, I’m analyzing **Formula 1 telemetry** or living on Coke Zero + popcorn.  
+- 👯 **Looking to collaborate on:** Creative, ambitious ideas.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💻 Technologies & Tools  
 
-Follow these steps:
+### **Frontend**
+- HTML • CSS • JavaScript • TypeScript  
+- React • Next.js • TailwindCSS  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### **Backend**
+- Node.js • Express  
+- Java  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### **Databases**
+- MongoDB • MySQL  
 
-# Step 3: Install the necessary dependencies.
-npm i
+### **Tools & Productivity**
+- Git & GitHub  
+- VS Code  
+- Postman  
+- Figma  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 📊 GitHub Stats  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+<div align="center">
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=razzolinik&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=razzolinik&layout=compact&theme=tokyonight"/>
+</div>
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7f9a8c63-08c4-4331-999c-50c5df488f24) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+<div align="center">
+<sub>"Trying not to break prod (...yet)" 🚀</sub>
+</div>
