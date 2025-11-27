@@ -11,7 +11,7 @@ import {
 import { Award, ExternalLink } from "lucide-react";
 import certificadoUI from '@/assets/certificado_UI.png';
 import certificadoFullStack from '@/assets/certificado_EducacionIT.png';
-import certificadoCiberseguridad from '@/assets/certificado_Ciberseguridad.png';
+import certificadoCiberseguridad from '@/assets/certificado_ciberseguridad.png';
 import certificadoMET from '@/assets/certificado_MET.png';
 import certificadoAI from '@/assets/certificado_AI.png';
 
