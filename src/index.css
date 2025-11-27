@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 95%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 348 83% 47%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 180 100% 50%;
+    --secondary-foreground: 0 0% 4%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 348 83% 47%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 348 83% 47%;
+    --input: 0 0% 15%;
+    --ring: 348 83% 47%;
+
+    --radius: 0rem;
+    
+    --grid-color: 348 83% 47%;
+    --glow-color: 348 83% 47%;
+    --secondary-glow: 180 100% 50%;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 95%;
+  }
+}
+
+@layer utilities {
+  .pixel-border {
+    border: 2px solid hsl(var(--border));
+    box-shadow: 0 0 20px hsl(var(--glow-color) / 0.3);
+  }
+  
+  .pixel-border-hover {
+    transition: all 0.3s ease;
+  }
+  
+  .pixel-border-hover:hover {
+    box-shadow: 0 0 30px hsl(var(--glow-color) / 0.6), 0 0 60px hsl(var(--glow-color) / 0.3);
+    border-color: hsl(var(--primary));
+  }
+  
+  .grid-bg {
+    background-image: 
+      linear-gradient(hsl(var(--grid-color) / 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--grid-color) / 0.1) 1px, transparent 1px);
+    background-size: 30px 30px;
+  }
+  
+  .glow-text {
+    text-shadow: 0 0 10px hsl(var(--primary) / 0.5);
+  }
+  
+  .terminal-window {
+    background: hsl(var(--card));
+    border: 2px solid hsl(var(--border));
+    box-shadow: 0 0 20px hsl(var(--glow-color) / 0.2);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Courier New', monospace;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+  }
+}
